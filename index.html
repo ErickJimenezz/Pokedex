@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        .content-form{
+            width: 40vw;
+            margin: auto auto;
+        }
+        .pokemon{
+            border: solid 1px rgba(228, 99, 99, 0.363);
+            height: 20vh;
+            margin: auto auto;
+        }
+        .info{
+            border: solid .5px rgba(255, 255, 255, 0.205);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <div class="content-form">
+            <div class="logo text-center">
+                <img src="pokemonn.jpg" class="img-responsive" width="300">
+            </div>
+
+            <form id="formulario">
+                <div class="form-group mt-3">
+                  <div class="input-group">
+                    <input type="text" class="form-control" id="pokemonInput" placeholder="Ingrese el nombre del pokemón">
+                  </div>
+                </div>
+                <button class="btn btn-danger w-100">
+                    Buscar
+                </button>
+            </form>
+            <div class="alerta">
+
+            </div>
+            <div class="info mt-3">
+
+            </div>
+            
+        </div>
+
+
+    </div>
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>
